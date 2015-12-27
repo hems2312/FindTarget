@@ -1,4 +1,4 @@
-angular.module('companyDirectory.controllers', [])
+angular.module('directory.controllers', [])
 
     .controller('CompanyListCtrl',['$scope', 'CompanyListService','$ionicLoading','$timeout', function ($scope, CompanyListService, $ionicLoading, $timeout) {
         $scope.searchKey = "";

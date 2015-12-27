@@ -1,4 +1,4 @@
-angular.module('companyDirectory', ['ionic', 'companyDirectory.controllers', 'companyDirectory.services'])
+angular.module('directory', ['ionic', 'directory.controllers', 'directory.services'])
 
     .run(function ($ionicPlatform) {
         $ionicPlatform.ready(function () {
